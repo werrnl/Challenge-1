@@ -1,0 +1,56 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1,
+p,
+th,
+td {
+  display: inline;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: white;
+}
+.inter-purple {
+  color: rgb(200, 0, 200);
+}
+
+.red{
+    color: red;
+}
+.big {
+  font-size: 40px;
+}
+#green{
+    color: green;
+}
+.capslock {
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.grey {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.container {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  align-items: center;
+  margin: 4em;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.text {
+  flex: 1;
+  margin: 60px;
+  width: 350px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}

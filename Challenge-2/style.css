@@ -1,0 +1,98 @@
+body {
+    font-family: "josefin sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 200px;
+    padding-left: 80px;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    margin: 0 20px auto 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform:uppercase ;
+    letter-spacing: 20px;
+    line-height: 80px;
+    margin-bottom: 0px;
+}
+
+.were {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: hsl(0, 36%, 70%);
+    line-height: 30px;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: block;
+    margin: 0 20px 20px 20px;
+    width: 150px; /* Breite des Logos anpassen */
+}
+
+
+input {
+	box-sizing: border-box;
+	font-size: 13px;
+	vertical-align: top;
+}
+
+.wrapper {
+	text-align: center;
+	position: relative;
+	height: 80px;
+	font-size: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.search {
+	font-size: 18px;
+	width: 60%;
+	height: 80px;
+	border: 1px  hsl(0, 36%, 70%);
+	border-radius: 20px 0 0 20px;
+}
+
+.submit {
+	cursor: pointer;
+	border: none;
+	background: url('http://thesuiteworld.com/wp-admin/maint/search-icon-white-png-540.png') no-repeat center center,  hsl(0, 36%, 70%);
+	background-size: 35px 35px;
+	border-radius: 0 20px 20px 0;
+	padding: 15px 25px;
+	display: inline-block;
+	width: 150px;
+	height: 80px;
+}
